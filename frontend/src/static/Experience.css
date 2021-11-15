@@ -1,0 +1,77 @@
+.yearsThere {
+  width: 25%;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.endYear {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.startYear {
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.companyMission {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.personalExperience {
+  width: 65%;
+  display: block;
+  margin: auto;
+  padding-left: 1rem;
+}
+
+.title {
+  font-style: italic;
+  margin: auto;
+}
+
+.nextToTitle {
+  margin: auto;
+}
+
+.bigDot{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.roundCompanyLogo {
+  border-radius: 50%;
+}
+
+.divTitleLogo {
+  display: inline-flex;
+  padding-bottom: 0.5rem;
+}
+
+.accomplishments {
+  opacity: 0;
+}
+
+.accomplishments.active {
+  opacity: 1;
+}
+
+.btn-accomplishments {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-accomplishments:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.singleAccomplishment {
+  padding-top: 0.3rem;
+}

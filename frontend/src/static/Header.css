@@ -1,0 +1,48 @@
+.roundPic {
+  border-radius: 50%;
+}
+
+.summary {
+  padding: 1rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.thatsMe {
+  text-align: -webkit-right;
+}
+
+.nameAndEmail h1 {
+  margin-bottom: 0;
+}
+
+.nameAndEmail p {
+  margin-top: 0;
+}
+
+.column-sm {
+  max-width: 30%;
+}
+
+.column-lg {
+  min-width: 70%;
+  position: relative;
+}
+
+.summaryParagraph {
+  display: flex;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.socialLinks {
+  position: relative;
+}
+
+.roundLinkLogo {
+  border-radius: 50%;
+  width: 2rem;
+  margin-left: 1rem;
+}

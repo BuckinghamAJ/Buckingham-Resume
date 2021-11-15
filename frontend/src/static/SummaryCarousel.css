@@ -1,0 +1,38 @@
+.summaryParagraph {
+  display: flex;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.splitParagraph {
+  display: block;
+  padding: 0.5rem;
+}
+
+.singleItem {
+  display: grid;
+  width: max-content;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  position: relative;
+  opacity: 1;
+  transition-duration: 1s;
+  width: fit-content;
+  overflow-x: hidden;
+  margin-top: 2rem;
+}
+
+.carouselUnderline {
+  margin-left: 0;
+  width: 75%;
+  height: 0.1rem;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}

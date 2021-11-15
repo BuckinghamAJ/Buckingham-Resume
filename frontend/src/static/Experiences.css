@@ -1,0 +1,14 @@
+.experiences {
+  width: 100%;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.experience-container {
+  padding: 2rem;
+  border-top: ridge;
+  border-bottom: ridge;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}

@@ -1,0 +1,7 @@
+.navbar.navbar-dark {
+  background-color: var(--primary-color);
+}
+
+.navbar.navbar-dark a {
+  cursor: pointer;
+}
